@@ -1,0 +1,90 @@
+ <!-- <app-navbar></app-navbar> -->
+ <!-- Section: Design Block -->
+  <!-- Background image -->
+  <div class="p-5 bg-image" style="
+        background-image: url('../../../assets/images/3.jpg');
+        height: 300px;
+        "></div>
+  <!-- Background image -->
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong sw" style="
+        margin-top: -190px;
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(30px);
+        ">
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-3">Sign up now</h2>
+          <form  [formGroup]="RegisterForm" (ngSubmit)="RegisterUser()">
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input type="text" formControlName="firstname" placeholder=" " class="form-control" [class]="firstname?.invalid && firstname?.touched  ? 'fcr':'fc'"/>
+                  <label class="form-label fcl" for="regFirstname">Firstname</label>
+                  <span class="error" *ngIf="firstname && firstname.invalid && firstname.touched">
+                    Atleast 3 characters required (Only Alphabets)
+                  </span>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input type="text" formControlName="lastname" placeholder=" " class="form-control" [class]="lastname?.invalid && lastname?.touched  ? 'fcr':'fc'" />
+                  <label class="form-label fcl" for="regLastname">Lastname</label>
+                  <span class="error" *ngIf="lastname && lastname.invalid && lastname.touched">
+                    Atleast 3 alphabets required (Only Alphabets)
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" formControlName="email" placeholder=" " class="form-control" [class]="email?.invalid && email?.touched  ? 'fcr':'fc'"/>
+              <label class="form-label fcl" for="regEmail">Email</label>
+              <span class="error" *ngIf="email && email.invalid && email.touched">
+                Enter valid E-mail
+              </span>
+            </div>
+
+            <!-- Password input -->
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input type="password" formControlName="password" placeholder=" " class="form-control" [class]="password?.invalid && password?.touched  ? 'fcr':'fc'" />
+                  <label class="form-label fcl" for="regPassword">Password</label>
+                <span class="error" *ngIf="password&& password.invalid && password.touched">
+                Atleast 8 characters required
+              </span>
+            </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <div class="form-outline mb-4">
+                <input type="password" formControlName="cpassword" placeholder=" " class="form-control" [class]="cpassword?.invalid && cpassword?.touched || MatchPass() ? 'fcr':'fc'" />
+                <label class="form-label fcl" for="regCPassword">Confirm Password</label>
+                <span class="error" *ngIf="cpassword&& cpassword.invalid && cpassword.touched">
+                  Atleast 8 characters required <br>
+                </span>
+                <span class="error" *ngIf="MatchPass()">Passwords didn't match</span>
+              </div>
+            </div>
+            </div>
+
+            <!-- Checkbox -->
+
+            <!-- Submit button -->
+            <button type="submit" [disabled]="RegisterForm.invalid || MatchPass()" class="btn btn-info btn-block mb-4">
+              Sign up
+            </button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Section: Design Block -->
+
+

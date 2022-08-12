@@ -1,0 +1,42 @@
+<div class="card mt-4" >
+  <div class="cardbody">
+    <div [formGroup]="form">
+      <!-- <label [attr.for]="question.id">{{question.label}}</label> -->
+      <div [ngSwitch]="question.type">
+        <mat-form-field class="d-grid  text" *ngSwitchCase="'text'" [id]="question.id" [style.width.px]=500>
+          <mat-label class="text">{{question.label}}</mat-label>
+          <input name="inp1" #inp1 matInput [type]="question.type" [formControlName]="question.id">
+        </mat-form-field>
+
+        <mat-form-field class="d-grid mt-2" *ngSwitchCase="'date'" [id]="question.id" [style.width.px]=500>
+          <mat-label class="text">{{question.label}}</mat-label>
+          <input name="inp2" #inp2 matInput [matDatepicker]="picker" [formControlName]="question.id">
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <ng-container *ngSwitchCase="'radio'">
+          <mat-label class="d-grid mt-2 text">{{question.label}}</mat-label><br />
+          <mat-radio-group [name]="question.id.toString()" [id]="question.id" *ngFor="let option of question.options"
+            [formControlName]="question.id">
+            <mat-radio-button class="me-3 text" [value]="option">{{option}}</mat-radio-button>
+          </mat-radio-group>
+        </ng-container>
+
+        <ng-container *ngSwitchCase="'checkbox'">
+          <mat-label class="d-grid mt-2 text">{{question.label}}</mat-label><br />
+          <section class="example-section" *ngFor="let options of question.options">
+            <p>
+              <mat-checkbox class="text" [formControlName]="question.id">{{options}}</mat-checkbox>
+            </p>
+          </section>
+        </ng-container>
+
+      </div>
+
+      <div class="errorMessage" *ngIf="!isValid && form.controls[question.id].touched" style="color: red;">
+        {{question.label}} is required</div>
+    </div>
+  </div>
+</div>

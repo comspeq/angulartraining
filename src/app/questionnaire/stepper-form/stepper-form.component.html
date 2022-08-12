@@ -1,0 +1,20 @@
+<h5 class="text-center" style="color: #007aca;margin-top: 10px;"> Review Form</h5>
+<div class="d-flex align-items-center justify-content-center">
+    <form (ngSubmit)="onSubmit()" [formGroup]="form">
+      <div *ngFor="let question of QuestionArray" class="form-row">
+        <app-form-question [question]="question" [form]="form"></app-form-question>
+      </div>
+  
+      <div class="form-row mt-5 mb-4">
+        <button  class="d-flex mx-auto" (click)="skip()"  mat-raised-button color="primary">Skip</button>
+      </div>
+      <div class="form-row mt-5 mb-4">
+        <button [disabled]="!form.valid" class="d-flex mx-auto"  mat-raised-button color="accent">Submit</button>
+      </div>
+      
+    </form>
+  
+    <!-- <div *ngIf="payLoad" class="form-row">
+      <strong>Saved the following values</strong><br>{{payLoad}}
+    </div> -->
+</div>

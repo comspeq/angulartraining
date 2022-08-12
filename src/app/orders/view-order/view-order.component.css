@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.deletetag{
+    color: red;
+}
+
+thead{
+    background-color: #007aca;
+    color: white;
+}
+
+.header{
+    color: #007aca;
+    margin: 0px 20px 0px 20px;
+}
+
+.add-content
+{
+    /* display: flex; */
+    justify-content: center;
+    margin-left:8%;
+    align-items: center;
+}
+
+.cdhead{
+    background-color: #007aca;
+    color: white;
+    font-weight: bold;
+}
+
+.cdbody{
+    color:black;
+    font-weight: bold;
+    border: 1px solid gainsboro;
+}
+
+.cdhead{
+    padding: 20px 20px;
+}
+
+.cdbody{
+    padding: 10px 10px;
+}

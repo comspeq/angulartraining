@@ -1,0 +1,50 @@
+ <!-- <app-navbar></app-navbar> -->
+<!-- Section: Design Block -->
+
+  <!-- Background image -->
+  <div class="p-5 bg-image" style="
+        background-image: url('../../../assets/images/3.jpg');
+        height: 300px;
+        "></div>
+  <!-- Background image -->
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong sw" style="
+        margin-top: -190px;
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(30px);
+        ">
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Log In now</h2>
+          <form  [formGroup]="LoginForm" (ngSubmit)="LoginUser()">
+            <!-- Email input -->
+          <div class="form-outline mb-4">
+          <input type="email" formControlName="email" placeholder=" " class="form-control" [class]="email?.invalid && email?.touched  ? 'fcr':'fc'"/>
+          <label class="form-label fcl" for="loginName">Email</label>
+          <span class="error" *ngIf="email && email.invalid && email.touched">
+            Enter valid E-mail
+          </span>
+        </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-5">
+              <input type="password" formControlName="password" placeholder=" " class="form-control" [class]="password?.invalid && password?.touched  ? 'fcr':'fc'"/>
+              <label class="form-label fcl"  for="loginPassword">Password</label>
+              <span class="error" *ngIf="password&& password.invalid && password.touched">
+                Minimum 8 characters required
+              </span>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" [disabled]="LoginForm.invalid" class="btn btn-info btn-block mb-4">
+              Sign in
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Section: Design Block -->

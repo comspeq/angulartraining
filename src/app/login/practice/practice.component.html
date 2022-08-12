@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- MDB JS-->
+</head>
+<body>
+  <!-- CSS MDB -->
+  <!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet"/>
+  <!-- CSS MDB -->
+
+  <!-- Main Content -->
+  <nav class="navbar navbar-expand navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Rate Card Calculator</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+        </ul>
+        <span class="navbar-text">
+          <div>
+            <div class="dropdown me-2">
+              <button class="btn">Currency &nbsp;<i class="fa-solid fa-caret-down" style="font-size: 15px;"></i></button>
+              <div class="dropdown-content ">
+              <ul class="ul">
+                <li class="li INR">INR <span class="right-float"> ₹</span> </li>
+                <li class="li USD">USD <span class="right-float"> $</span> </li>
+                <li></li>
+              </ul>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn">&nbsp; &nbsp;Basis  &nbsp;<i class="fa-solid fa-caret-down" style="font-size: 15px;"></i></button>
+              <div class="dropdown-content2">
+              <ul class="ul">
+                <li class="li Annum">Annum <span class="right-float"> <i class='far fa-calendar-check'></i></span> </li>
+                <li class="li Month">Month <span class="right-float"> <i class='far fa-calendar-alt'></i></span> </li>
+                <li class="li Hour">Hour <span class="right-float"> <i class='fas fa-hourglass-half'></i></span> </li>
+                <li></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <!-- Main Content -->
+  <div class="card mx-4 mx-md-5 shadow-5-strong sw mt-4" style="
+ 
+  background: hsla(0, 0%, 100%, 0.8);
+  backdrop-filter: blur(30px);
+  ">
+<div class="card-body py-5 px-md-5">
+
+<div class="row d-flex justify-content-center">
+    <div class="col-lg-4">
+      <h2 class="fw-bold mb-5">Desired Bill Rate</h2>
+      <form class="stretch-align">
+        <!-- Employee -->
+      <div class="form-outline mb-4">
+      <input type="email"  placeholder=" " class="form-control fc" />
+      <label class="form-label fcl" for="loginName">Employee Name</label>
+    </div>
+  
+        <!-- CTC -->
+        <div class="form-outline mb-4">
+          <input type="text" placeholder=" " class="form-control fc"/>
+          <label class="form-label fcl"  for="loginPassword">CTC ( in ₹ )</label>
+        </div>
+
+        <!-- Markup -->
+        <div class="form-outline mb-4">
+          <input type="text" placeholder=" " class="form-control fc"/>
+          <label class="form-label fcl"  for="loginPassword">Markup</label>
+        </div>
+
+         <!-- Total Hours -->
+        <div class="form-outline mb-5">
+          <input type="text" placeholder=" " class="form-control fc"/>
+          <label class="form-label fcl"  for="loginPassword">Total Hours per month</label>
+        </div>
+
+        <button type="submit" class="btn btn-info btn-block mb-4">
+         Calculate
+        </button>
+      </form>
+    </div>
+
+    <div class="col-lg-8" >
+      <div class="card mx-4 mx-md-5 shadow-5-strong sw mb-5 rightbox" style="
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(30px);
+        ">
+    <div class="card-body py-5 px-md-5">
+      <div class="whitecolor">
+        <span class="me-5 f-1-5vw">Currency : 
+          <span class="INR-value">INR ₹</span>
+          <span class="USD-value">USD $</span>
+        </span>
+        <span class="f-1-5vw">Basis : Per Annum</span>
+      </div>
+      <hr class="white-hr">
+      <div class="row1 ">
+        <div class="whitecolor">
+          <span class="fw-bold mb-5 whitecolor h1-head">CTC</span>
+          <br>
+          <span class="text-info h1-txt INR-Annum">₹6,50,000</span>
+          <span class="text-info h1-txt INR-Month">₹54,167</span>
+          <span class="text-info h1-txt INR-Hour">₹325</span>
+          <span class="text-info h1-txt USD-Annum">$8,667</span>
+          <span class="text-info h1-txt USD-Month">$722</span>
+          <span class="text-info h1-txt USD-Hour">$4</span>
+        </div>
+        <div class="whitecolor">
+          <span class="fw-bold mb-5 whitecolor h1-head">Total Base cost</span>
+          <br>
+          <span class="text-info h1-txt INR-Month">₹65,912</span>
+          <span class="text-info h1-txt INR-Hour">₹375</span>
+          <span class="text-info h1-txt USD-Month">$879</span>
+          <span class="text-info h1-txt USD-Hour">$5</span>
+        </div>
+      </div>
+      <div class="row1">
+        <div class="whitecolor">
+          <span class="fw-bold mb-5 whitecolor h1-head">Markup</span>
+          <br>
+          <span class="text-info h1-txt INR-Month">₹65,912</span>
+          <span class="text-info h1-txt INR-Hour">₹375</span>
+          <span class="text-info h1-txt USD-Month">$879</span>
+          <span class="text-info h1-txt USD-Hour">$5</span>
+        </div>
+        <div class="whitecolor">
+          <span class="fw-bold mb-5 whitecolor h1-head">Recommended Bill Rate</span>
+          <br>
+          <span class="text-info h1-txt INR-Month">₹1,31,824</span>
+          <span class="text-info h1-txt INR-Hour">₹749</span>
+          <span class="text-info h1-txt USD-Month">$1,758</span>
+          <span class="text-info h1-txt USD-Hour">$10</span>
+        </div>
+      </div>
+      <hr class="white-hr">
+      <div class="whitecolor f-1-5vw">
+        Operation Cost per Hour : 
+        <span class="INR-value">₹50</span> 
+        <span class="USD-value">$1</span> 
+      </div>
+    </div>
+  </div>
+    </div>
+    
+</div>
+</div>
+</div>
+  <!-- Main Content -->
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
+
+</html>
+
+
+
+

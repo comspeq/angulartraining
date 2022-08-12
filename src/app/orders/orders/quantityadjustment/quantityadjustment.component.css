@@ -1,0 +1,18 @@
+.textbox{
+    border: none;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    height: 36px;
+    width: 30px;
+}
+
+.textbox:focus{
+    border: none;
+    outline: none;
+}
+
+svg{
+    background-color: #007aca;
+    color: white;
+}

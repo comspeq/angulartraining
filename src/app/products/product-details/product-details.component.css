@@ -1,0 +1,59 @@
+.card{
+    border: 3px solid rgb(247, 237, 237);
+    box-shadow: 20rem;
+    border-radius: 8px;
+    /* height: 85vh; */
+    height: auto;
+    padding: 20px 20px;
+}
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none !important;
+    color: black;
+}
+
+label{
+    color: black;
+    font-weight: bold;
+}
+
+svg{
+    color: #007aca;
+}
+
+.btns:hover{
+    box-shadow: 0 0 2px 2px #ffa900;
+}
+
+.close{
+    border: none;
+    background-color: transparent;
+    font-size: larger;
+  }
+
+  .input-group-text{
+    width: 130px;
+  }
+
+  .error{
+    color: red;
+    font-size: small;
+    margin-top: -15px;
+  }
+
+  .buttons{
+    font-size: 12px;
+    background-color: #007ACA;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons:hover{
+  color: #007ACA;
+  background-color: white;
+  border: 2px solid #007ACA;
+}

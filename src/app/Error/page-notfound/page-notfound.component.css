@@ -1,0 +1,9 @@
+.errorbtn{
+    border-radius: 20px;
+    border: 1px solid #2180FC;
+    background-color: white;
+    color: #2180FC;
+    font-size: small;
+    height: 36px;
+    width:150px;
+}

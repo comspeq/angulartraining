@@ -1,0 +1,75 @@
+.sw
+{
+    display: grid;
+    margin-left: 15% !important;
+    width: 70% !important;
+    opacity: .95 !important;
+}
+.w
+{
+    width: 30%;
+}
+.error
+{
+    font-size: 13px;
+    color: red;
+    position: absolute;
+}
+.mt-10P
+{
+    margin-top: 10%;
+}
+.mt-5P
+{
+    margin-top: 8%;
+}
+
+.fc
+{
+    border-bottom: 1px solid rgb(119, 119, 119) !important;
+    border-radius: 0 !important;
+    box-shadow: 0 5px 4px -2px rgb(0, 122, 192) !important;
+}
+.fc:focus
+{
+    border-bottom: 1px solid rgb(0, 122, 192) !important;
+}
+.fc:focus + .fcl{
+    color: rgb(0, 122, 192);
+}
+.fc:not(:placeholder-shown) + .fcl {
+    transform: translateY(-.9em) scale(0.8);
+}
+.fc:not(:placeholder-shown)
+{
+    box-shadow: 0 5px 4px -2px rgb(0, 52, 150) !important;
+}
+.fcr
+{
+    border-bottom: 1px solid rgb(119, 119, 119) !important;
+    border-radius: 0 !important;
+    box-shadow: 0 5px 4px -2px rgb(153, 0, 0) !important;
+}
+.fcr:focus + .fcl{
+    color: rgb(0, 122, 192);
+}
+.fcr:focus
+{
+    border-bottom: 1px solid rgb(0, 122, 192) !important;
+}
+.fcr:not(:placeholder-shown) + .fcl {
+    transform: translateY(-.9em) scale(0.8);
+}
+.fcr:not(:placeholder-shown)
+{
+    box-shadow: 0 5px 4px -2px rgb(153, 0, 0) !important;
+}
+.f-13
+{
+font-size: 13px;
+}
+
+
+
+
+

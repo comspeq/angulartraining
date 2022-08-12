@@ -1,0 +1,137 @@
+a,h1,h2,h3,h4,h5,h6,p
+{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: rgb(127, 221, 221);
+}
+
+.topnav{
+   
+    height: 60px;
+}
+.bi bi-bag-check{
+    color: blue;
+}
+.BK{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-style: italic;
+    padding: 5px 0 0 0 ;
+}
+.Ee{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    text-decoration: none;
+    position: relative;
+    left:40px;
+    bottom: 7px;
+}
+.Ps{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+    
+}
+.src_action{
+    position: relative;
+    border: 0;
+    right: 1px;
+    bottom: 3px;
+    border-radius: 0;
+    width: 111px;
+    height:45px;
+    padding-top: 12px;
+    background-image: -webkit-linear-gradient(0deg,#ff934b 0%,#ff5e62 100%);
+    font-weight: bold;
+}
+.src_action:hover{
+    box-shadow: 0 0 5px 1px #ff4800;
+}
+.testbox{
+    width: 70%;
+    height: 45px;
+    outline: none;
+    border: none;
+    margin-top:7px;
+    text-align: center;
+
+}
+.Shared{
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+.LO{
+   color: rgb(62, 103, 236); 
+   font-size: 13px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cart{
+ float: right;
+}
+.navbar{
+    color: rgb(42, 119, 187);
+}
+.nav-item{
+    font-style: bold;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.bo{
+    border: 1px solid;
+    border-radius: 4px;
+}
+.lu{
+    border: 1px solid;
+    border-radius: 4px;
+}
+.arrow {
+    border: solid rgb(223, 223, 223);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate3d(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.card{
+  display: block;
+}
+.card:hover{
+    /* box-shadow: 0 0 5px 5px rgb(189, 221, 243); */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 2px solid #007ACa;
+    cursor: pointer;
+}
+.ftfont{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none !important;
+    color: black;
+}
+
+/* span{
+    display:none;
+}
+#side-menu {
+    color: #007ACa;
+    width:30px;
+    padding:20px;
+    list-style:none;
+}
+
+#side-menu:hover {
+    width: 400px !important;	
+    display:inline-block;
+}
+#side-menu:hover span{
+    display:inline-block;
+}*/
+
+svg{
+    color: #007ACa;   
+} 

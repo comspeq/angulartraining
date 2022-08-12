@@ -1,0 +1,122 @@
+<!-- <app-navbar></app-navbar> -->
+<div class="container mt-4 row add-content">
+  <div class="col-md-6">
+    <h3 class="text-center">Add a new Address</h3>
+    <div class="card mt-4">
+      <div class="cardbody">
+
+
+        <form class="mt-1" [formGroup]="AddressForm" (ngSubmit)="Address()">
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="form-outline mb-4">
+            <input type="text" formControlName="name" placeholder=" " class="form-control"
+              [class]="name?.invalid && name?.touched  ? 'fcr':'fc'" />
+            <label class="form-label fcl" for="regname">Name</label>
+            <span class="error" *ngIf="name && name.invalid && name.touched">
+              Atleast 3 characters required (Only Alphabets)
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="form-outline">
+                <input type="text" formControlName="phone" placeholder=" " class="form-control"
+                  [class]="phone?.invalid && phone?.touched  ? 'fcr':'fc'" (keypress)="($event.charCode >= 48 && $event.charCode < 58)" />
+                <label class="form-label fcl" for="phone">Mobile Number</label>
+                <span class="error" *ngIf="phone && phone.invalid && phone.touched">
+                  Enter valid 10 digit Mobile number
+                </span>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="form-outline">
+                <input type="text" formControlName="door_no" placeholder=" " class="form-control"
+                  [class]="door_no?.invalid && door_no?.touched  ? 'fcr':'fc'" />
+                <label class="form-label fcl" for="regFirstdoor_no">Flat, House no</label>
+                <span class="error" *ngIf="door_no && door_no.invalid && door_no.touched">
+                  Enter valid House / Flat no
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="text" formControlName="door_no" placeholder=" " class="form-control"
+              [class]="door_no?.invalid && door_no?.touched  ? 'fcr':'fc'" />
+            <label class="form-label fcl" for="regEmail">Flat, House no</label>
+            <span class="error" *ngIf="door_no && door_no.invalid && door_no.touched">
+              Enter valid Flat / House no
+            </span>
+          </div>
+
+          <!-- Password input -->
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="form-outline">
+                <input type="text" formControlName="street" placeholder=" " class="form-control"
+                  [class]="street?.invalid && street?.touched  ? 'fcr':'fc'" />
+                <label class="form-label fcl" for="regPassword">Street</label>
+                <span class="error" *ngIf="street&& street.invalid && street.touched">
+                  Atleast 8 characters required
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <div class="form-outline">
+                <input type="text" formControlName="city" placeholder=" " class="form-control"
+                  [class]="city?.invalid && city?.touched  ? 'fcr':'fc'" />
+                <label class="form-label fcl" for="regCPassword">City</label>
+                <span class="error" *ngIf="city&& city.invalid && city.touched">
+                  Atleast 8 characters required <br>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="form-outline">
+                <input type="text" formControlName="zipcode" placeholder=" " class="form-control"
+                  [class]="zipcode?.invalid && zipcode?.touched  ? 'fcr':'fc'" (keypress)="($event.charCode >= 48 && $event.charCode < 58)"/>
+                <label class="form-label fcl" for="regCPassword">Zipcode</label>
+                <span class="error" *ngIf="zipcode&& zipcode.invalid && zipcode.touched">
+                  Enter valid zipcode <br>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="form-outline">
+                <input type="text" formControlName="state" placeholder=" " class="form-control"
+                  [class]="state?.invalid && state?.touched  ? 'fcr':'fc'" />
+                <label class="form-label fcl" for="regCPassword">State</label>
+                <span class="error" *ngIf="state&& state.invalid && state.touched">
+                  State required <br>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="form-outline">
+                <input type="text" formControlName="country" placeholder=" " class="form-control"
+                  [class]="country?.invalid && country?.touched  ? 'fcr':'fc'" />
+                <label class="form-label fcl" for="regCPassword">Country</label>
+                <span class="error" *ngIf="country&& country.invalid && country.touched">
+                  Country required <br>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Checkbox -->
+
+          <!-- Submit button -->
+          <button type="submit" [disabled]="AddressForm.invalid " class="btn btn-info btn-block mb-4">
+            Save Address
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="col-md-6">
+    <h3 class="text-center">Select a Delivery Address</h3>
+  </div> -->
+</div>

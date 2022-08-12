@@ -1,0 +1,1658 @@
+{
+  "Logged": [
+    {
+      "id": 1,
+      "email": "renith@gmail.com",
+      "password": "Srk@12345"
+    },
+    {
+      "id": 2,
+      "email": "praveen2k@gmail.com",
+      "password": "qazwsxdc"
+    }
+  ],
+  "userBasicInfo": [
+    {
+      "id": 1,
+      "firstname": "Renith",
+      "lastname": "Kumar",
+      "email": "renith@gmail.com",
+      "password": "Srk@12345",
+      "cpassword": "Srk@12345"
+    },
+    {
+      "id": 2,
+      "firstname": "Senthil",
+      "lastname": "Kumar",
+      "email": "senthilkumar123@gmail.com",
+      "password": "123123123",
+      "cpassword": "123123123"
+    },
+    {
+      "firstname": "Srk",
+      "lastname": "kumar",
+      "email": "sr@gmail.com",
+      "password": "qazwsx123",
+      "cpassword": "qazwsx123",
+      "id": 3
+    },
+    {
+      "firstname": "abc",
+      "lastname": "abc",
+      "email": "a@ab.com",
+      "password": "12345678",
+      "cpassword": "12345678",
+      "id": 4
+    },
+    {
+      "firstname": "rakesh",
+      "lastname": "krishna",
+      "email": "rk@gmail.com",
+      "password": "qazwsx123",
+      "cpassword": "qazwsx123",
+      "id": 5
+    },
+    {
+      "firstname": "rakesh",
+      "lastname": "krishna",
+      "email": "rk@gmail.com",
+      "password": "qazwsx123",
+      "cpassword": "qazwsx123",
+      "id": 6
+    },
+    {
+      "firstname": "aaa",
+      "lastname": "aaa",
+      "email": "a@a.com",
+      "password": "qazwsx123",
+      "cpassword": "qazwsx123",
+      "id": 7
+    },
+    {
+      "firstname": "aaa",
+      "lastname": "aaa",
+      "email": "a@aa.com",
+      "password": "asdasdasd",
+      "cpassword": "asdasdasd",
+      "id": 8
+    },
+    {
+      "firstname": "Renith",
+      "lastname": "Kumar",
+      "email": "b@b.com",
+      "password": "qazwsxedc",
+      "cpassword": "qazwsxedc",
+      "id": 9
+    },
+    {
+      "firstname": "user",
+      "lastname": "user",
+      "email": "user@gmail.com",
+      "password": "qazwsxedc",
+      "cpassword": "qazwsxedc",
+      "id": 10
+    },
+    {
+      "firstname": "renith",
+      "lastname": "kumar",
+      "email": "renithkumar@gmail.com",
+      "password": "qazwsxedc",
+      "cpassword": "qazwsxedc",
+      "id": 11
+    }
+  ],
+  "userAddress": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Renith",
+      "phone": 6383164696,
+      "doorno/flatno": "1/691",
+      "street": "Mache Goundan Palayam, Eachanari",
+      "city": "Coimbatore",
+      "zipcode": 641021,
+      "state": "Tamil Nadu",
+      "country": "India"
+    }
+  ],
+  "userOtherInfo": [
+    {
+      "id": 1,
+      "userId": 1,
+      "phone": 6383164696,
+      "image": "/assets/1.jpg",
+      "admin": true
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "jewelery"
+    },
+    {
+      "id": 3,
+      "name": "Mens clothing"
+    },
+    {
+      "id": 4,
+      "name": "Womens clothing"
+    },
+    {
+      "id": 5,
+      "name": "The new category - latest"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Red Leaf Navy Men Colourblocked Cotton Tshirt",
+      "price": "379",
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "Mens clothing",
+      "image": "assets/clothings/T_shirt.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "promotion": false,
+      "stars": 3,
+      "brand": "Otto"
+    },
+    {
+      "id": 2,
+      "title": "29K Men Black Round Neck T-Shirt",
+      "price": "200",
+      "description": "Don't be like the rest of the guys, wear unique and stylish outfits from #PAUSE and be different from rest of the crowd. the images shown are for representational purposes only",
+      "category": "Mens clothing",
+      "image": "assets/clothings/t-stwo.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Otto"
+    },
+    {
+      "id": 3,
+      "title": "Odoky Men's White Printed Round Neck Tshirt",
+      "price": "380",
+      "description": " Please note that the colour of the product may slightly vary in comparison to the picture shown on the website due to various reasons which may include different lighting and devices during photo-shoot a",
+      "category": "Mens clothing",
+      "image": "assets/clothings/t-sthree.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 400
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Levis"
+    },
+    {
+      "id": 4,
+      "title": "Men Maroon Henley Collar T-Shirt",
+      "price": "500",
+      "description": "This stylish shirt is made from pure lightweight cotton to keep you cool. A slim fit always looks dapper. This innovative shirt has a special fabric and a clever construction. Its cut from breathable fabrics and has a style that features classic spread collar and Quality fabric detail at placket and cuff.",
+      "category": "Mens clothing",
+      "image": "assets/clothings/t-sfour.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 120
+      },
+      "promotion": true,
+      "stars": 4,
+      "brand": "Levis"
+    },
+    {
+      "id": 5,
+      "title": "Smiley Sky Blue Round Neck T-Shirt For Men",
+      "price": "800",
+      "description": ". Roll that sleeve to make an impact. Our products are created for everyday lifestyle needs of the man who loves to sport a smart casual look. Each product is designed to lend a unique visual appeal, in hand-picked materials and crafted with precision.",
+      "category": "Mens clothing",
+      "image": "assets/clothings/t-sfive.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Otto"
+    },
+    {
+      "id": 6,
+      "title": "Pause Men Multicolor Round Neck T-Shirt",
+      "price": "200",
+      "description": "Be the fashion miyagi you are by teaming this PAUSE merchandise with a pair of slim joggers. Opt for a pair of trendy casual shoes to complete this look. Own the streets by teaming this tee with a pair of shorts and casual shoes. wear unique and stylish outfits from #PAUSE and be different from rest of the crowd",
+      "category": "Mens clothing",
+      "image": "assets/clothings/t-ssix.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Levis"
+    },
+    {
+      "id": 7,
+      "title": "Odoky Color Blocked Men's Cotton Tshirt",
+      "price": "200",
+      "description": "Be the fashion miyagi you are by teaming this PAUSE merchandise with a pair of slim joggers. Opt for a pair of trendy casual shoes to complete this look. Own the streets by teaming this jacket with a pair of shorts and casual shoes",
+      "category": "Mens clothing",
+      "image": "assets/clothings/t-sseven.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Allen Solly"
+    },
+    {
+      "id": 8,
+      "title": "Vida Loca Cotton Designer Shirt For Men",
+      "price": "749",
+      "description": "This stylish shirt is made from pure lightweight cotton to keep you cool. A slim fit always looks dapper. This innovative shirt has a special fabric and a clever construction. Its cut from breathable fabrics and has a style that features classic spread collar and Quality fabric detail at placket and cuff. ",
+      "category": "Mens clothing",
+      "image": "assets/clothings/Shirtone.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 3,
+      "brand": "Allen Solly"
+    },
+    {
+      "id": 9,
+      "title": "Royal Fashion Dotted White Shirt For Men",
+      "price": "499",
+      "description": "ROYAL FASHION offers a complete fashion wardrobe to the male youth of today. The brand stands for style, charisma and attitude and brings them into your wardrobe with its vibrant yet relaxed collection. Incorporating the most contemporary trends with a splash of youthful energy, playful styling & trendy collections, ROYAL FASHION knows the pulse of the youth and offers clothing for the discerning youth.",
+      "category": "Mens clothing",
+      "image": "assets/clothings/shirttwo.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 500
+      },
+      "promotion": true,
+      "stars": 4.5,
+      "brand": "Allen Solly"
+    },
+    {
+      "id": 10,
+      "title": "GLADIATOR PRODUCTS PLAIN SHIRT BEIGE (LIGHT GOLD) WITH NAVY",
+      "price": "549",
+      "description": "PRODUCT: PLAIN SHRT WITH DIFFERENT COLLAR AND COUGH",
+      "category": "Mens clothing",
+      "image": "assets/clothings/shirtthree.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Otto"
+    },
+    {
+      "id": 11,
+      "title": "BHUWAL FASHION DESIGNER RUFFEL GEORGETTE SAREE-BF5200",
+      "price": "749",
+      "description": "This stylish and trendy Kurti is made of high quality fabric. It comes in an attractive colors and perfectly suitable for occasion like Casual, Formal, Party, Daily Wear, Function, Wedding, and Festival. Pair it with matching bottom wear and fashion accessories for a trendy look. -> Package Details: 1 Kurti -> Wash Care: First Wash Dry Clean/Normal Wash",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareeone.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": true,
+      "stars": 3,
+      "brand": "Allen Solly"
+    },
+    {
+      "id": 12,
+      "title": "Svb Women's Pink Satin With Blouse Saree",
+      "price": "899",
+      "description": "This is crepe or satin saree Wit blouse Piece,its Come with 01 NOS of saree n 01 NOS Of blouse piece,Saree Works: Saree length: 5.25 mtr .",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareetwo.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Biba"
+    },
+    {
+      "id": 13,
+      "title": "Sharda Creation Green Art Silk Plain With Blouse Saree",
+      "price": "249",
+      "description": "Blouse length:0.80 mtr,Work Printed. Border Work :Printed . Border Work: Printed,Please Wear This Saree With matching aceessories Like Earring.Neckless,We happy to serve our customer",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareethree.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": true,
+      "stars": 3,
+      "brand": "Zara"
+    },
+    {
+      "id": 14,
+      "title": "Svb Sarees Blue Taffeta Block Print Art Silk Saree Without Blouse",
+      "price": "239",
+      "description": "Make a distinct appearance and get complimented by wearing this saree from the popular brand, Sharda Creation. It comes with a pretty colour combination, which is further enhanced by the printed pattern. In addition, it has been crafted from good quality poly silk to keep you at ease throughout the day.",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareefour.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 3,
+      "brand": "Biba"
+    },
+    {
+      "id": 15,
+      "title": "Sharda Creation Cream Striped Print Polycotton Without Blouse Saree",
+      "price": "269",
+      "description": "SVB Cream Colour Polycotton silk sare",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareefive.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 4.5,
+      "brand": "Zara"
+    },
+    {
+      "id": 16,
+      "title": "Sharda Creation Red Mysore Silk Printed With Blouse Saree",
+      "price": "359",
+      "description": "Add to your classy wardrobe collection with this elegantly, Beautifully designed saree.A wondrous mix of fashion and tradition. This saree lends you an authentic traditional and uplift your ethnic style in an instant",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareesix.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 4,
+      "brand": "Allen Solly"
+    },
+    {
+      "id": 17,
+      "title": "SVB Purple Cotton Printed Saree Without Blouse",
+      "price": "249",
+      "description": "Saree is an outfit which women can carry off with great panache. With the right material and drape, it can accentuate the beauty of women of all ages and forms. Be it a festival or a wedding, sarees are a hot favorite worldwide due to its popularity.",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareeseven.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": true,
+      "stars": 3,
+      "brand": "Allen SOlly"
+    },
+    {
+      "id": 18,
+      "title": "SVB Saree Yellow Printed Art Silk Saree With Blouse",
+      "price": "339",
+      "description": "Saree is an outfit which women can carry off with great panache. With the right material and drape, it can accentuate the beauty of women of all ages and forms. Be it a festival or a wedding, sarees are a hot favorite worldwide due to its popularity.",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareeeight.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 3,
+      "brand": "Biba"
+    },
+    {
+      "id": 19,
+      "title": "Sharda Creation Green Mysore Silk Printed With Blouse Saree",
+      "price": "339",
+      "description": "Add to your classy wardrobe collection with this elegantly, Beautifully designed saree.A wondrous mix of fashion and tradition. This saree lends you an authentic traditional and uplift your ethnic style in an instant",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareenine.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 3,
+      "brand": "Biba"
+    },
+    {
+      "id": 20,
+      "title": "Sharda Creation Black Mysore Silk Printed With Blouse Saree",
+      "price": "349",
+      "description": "Sharda Creation Mysore Silk Kalamkari Saree",
+      "category": "Womens clothing",
+      "image": "assets/clothings/sareeten.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": true,
+      "stars": 3,
+      "brand": "Zara"
+    },
+    {
+      "id": 21,
+      "title": "I Kall K200 (2GB ,16GB) 5.5inch 2500mAh - Red",
+      "price": "7509",
+      "description": "I Kall K200 (2GB ,16GB) 5.5inch 2500mAh - Red Smartphone comes with 2RAM & 16GB Internal Memory expandable upto 64 GB , with Dual SIM Supplort. 4G VOLTE Supported, works with VoLTE networks like JIO as well. It supports Full HD Playback on 5.5 Inch Display",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob1.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": true,
+      "stars": 4
+    },
+    {
+      "id": 22,
+      "title": "I Kall K110 (2GB ,16GB) 5.5inch 2500mAh - Black",
+      "price": "7059",
+      "description": "I Kall K110 (2GB ,16GB) 5.5inch 2500mAh - Black Smartphone comes with 2RAM & 16GB Internal Memory expandable upto 64 GB , with Dual SIM Supplort. 4G VOLTE Supported, works with VoLTE networks like JIO as well. It supports Full HD Playback on 5.5 Inch Display",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob2.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 3
+    },
+    {
+      "id": 23,
+      "title": "I Kall K8 (2GB ,16GB) 5.4inch 2200mAh - Blue",
+      "price": "7059",
+      "description": "I Kall K8 (2GB ,16GB) 5.4inch 2200mAh - Blue Smartphone comes with 2RAM & 16GB Internal Memory expandable upto 64 GB , with Dual SIM Supplort. 4G VOLTE Supported, works with VoLTE networks like JIO as well. It supports Full HD Playback on 5.4 Inch Display",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob3.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": false,
+      "stars": 3
+    },
+    {
+      "id": 24,
+      "title": "realme C11 2021 (Cool Grey, 32 GB) (2 GB RAM)",
+      "price": "9990",
+      "description": "Fingerprint (rear-mounted), accelerometer, proximity, compass",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob4.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 600
+      },
+      "promotion": true,
+      "stars": 2.5
+    },
+    {
+      "id": 25,
+      "title": "Vivo X50 (Glaze Black, 128 GB) (8 GB RAM)",
+      "price": "28990",
+      "description": "Vivo X50 comes with a range of excellent features in a mid-range budget. The device features a bezel-less design with an on-screen optical fingerprint sensor. Further, its impressive internal specifications, as well as massive storage capacity and fast charging option, make it a huge hit among all smartphone lovers.",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob5.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 300
+      },
+      "promotion": false,
+      "stars": 4.5
+    },
+    {
+      "id": 26,
+      "title": "Apple iPhone XR ( 64 GB)",
+      "price": "44679",
+      "description": "The iPhone XR has arrived to scintillate our senses with a host of features, such as the Liquid Retina Display, a faster Face ID, and a powerful A12 Bionic Chip. Whether it's that picture-perfect portrait shot or a jaw-dropping HDR selfie, the cameras of the iPhone XR will continue to amaze you with their brilliance. Now, experience beauty, in every way.",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob6.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 500
+      },
+      "promotion": true,
+      "stars": 4.5
+    },
+    {
+      "id": 27,
+      "title": "Samsung Galaxy M02s (Blue,3GB RAM, 32GB )",
+      "price": "10499",
+      "description": "Samsung is offering triple cameras on the rear side teamed with a 5MP selfie shooting lens on the front, which can capture impressive images. The brand has also incorporated a massive 5000mAh battery compatible with 15W Fast Charging, to ensure long working hours. If we consider the price range of the smartphone the display setup is a bit average to settle for. Further, the absence of a fingerprint sensor can be a major cause of buyers' dissatisfaction, when compared to others within the price range. ",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob7.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 2
+    },
+    {
+      "id": 28,
+      "title": "SAMSUNG Galaxy M11 (Violet, 64 GB) (4 GB RAM)",
+      "price": "11999",
+      "description": "Samsung Galaxy M11 64GB is an alluring smartphone that comes under the price range of 11k. The device packs a fast charging facility and is supported by 4GB RAM offering a sturdy performance. Though the display and processor of the particular set is a bit average, the brand is offering booming Dolby Atmos speakers and an impressive camera setup on both sides of the device.  ",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob8.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 5
+    },
+    {
+      "id": 29,
+      "title": "SAMSUNG Galaxy F42 5G (Matte Aqua, 128 GB) (6 GB RAM)",
+      "price": "18999",
+      "description": "Samsung Galaxy F42 is an appropriate investment for the photographers' out there, backed by a massive battery and an impressive Super AMOLED display. The device gets great RAM and an authentic Samsung chipset assuring seamless operations on the go. However, the inbuilt storage though expandable but is only 128GB.",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob9.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4
+    },
+    {
+      "id": 30,
+      "title": "SAMSUNG Galaxy F62 (Laser Blue, 128 GB) (6 GB RAM)",
+      "price": "24499",
+      "description": "Samsung is offering a great visual experience within its F62 model, featuring a Super AMOLED Plus screen besides enhanced resolution. Further, the 6GB RAM of the device facilitates quite an impressive user experience. The robust 6000mAh battery loaded within the device ensures heavy-duty workloads once 100% charged. In case you are searching for a smartphone with great cameras, Samsung F62 can be your ultimate choice with its 32MP selfie lens and quad shooters on the rear front.",
+      "category": "Electronics",
+      "image": "assets/Mobiles/mob10.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 3
+    },
+    {
+      "id": 31,
+      "title": "Handy Vegetable and Fruit Plastic Chopper, 450 ml",
+      "price": "129",
+      "description": "This handy vegetable chopper  is designed to assist you in your cooking task. You can now ease all your kitchen chores with this multi-blade vegetable chopper within seconds. Say Goodbye to all those Pesky'onion tears and Say Hello to this new slicing and cutting companion. Designed with high-quality plastic. This chopper ensures high performance for the years. Handy Chopper is an excellent affordable solution to all of your fruit and vegetable chopping needs. Featuring sharp and durable stainless steel blades and a unique string design, this manual chopper chops and cuts vegetables in a hassle-free manner with minimal effort.",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen1.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 1
+    },
+    {
+      "id": 32,
+      "title": "Shopper52 Plastic Multicolor Magic Rotate Vegetable Grater Slicer With Drain Basket",
+      "price": "409",
+      "description": "KITCHEN HELPER: Cut and wash, easy and fast, rotating buckle, automatic rotation Angle, asphalt basket is always stable, easy to wash vegetable and drainage.",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen2.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4.5
+    },
+    {
+      "id": 33,
+      "title": "Hetshicreation Glass Portable USB Juicer",
+      "price": "549",
+      "description": "New Version Portable Personal Blender Multifunctional : small in size, 2000mAh,portable and multi-use,Not only for making a protein shake,,juice and used as common cup and juice blender,blender can mix kinds of fruit and vegetables",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen3.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 2
+    },
+    {
+      "id": 34,
+      "title": "Lazywindow Single handle Washer Bowl for Rice Vegetable Fruits (Assorted Color- Pack of 1)",
+      "price": "219",
+      "description": "",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen4.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 5
+    },
+    {
+      "id": 35,
+      "title": "Style Ur Home - 2 in 1 Vegetable & Fruit Cutter - Peeler with 5 Blades",
+      "price": "89",
+      "description": "Material: Plastic, Color: Multi. Package Contents: 2 in 1 Vegetable Cutter with Peeler. Size: 22 cm x 4 cm x 7 cm. 5x vegetable cutter comes with unique 45mm radius round blades for better performance,Very handy and comfortable to use and maintain. Sleek and compact design allows easy storage, occupying very small space,Very quick to cut accurate pieces of vegetable and some fruits easy manual wash and dry after wash. you can easily cut through hard vegetables such as radish, carrot, cucumbers, zucchini, capsicum and more. Also featuring a peeler, this multi cutter helps your cooking tasks.",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen5.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 4
+    },
+    {
+      "id": 36,
+      "title": "Darkpyro Fruits & Vegetable Plastic Nano Juicer",
+      "price": "249",
+      "description": "Not only can you juice wheat grass, you can also enjoy fresh nutritious juice from a variety of fruits, vegetables and leafy greens. Its unique single-auger juicer design uses an extremely gentle and efficient process to extract more juice from all of your favorite fruits and vegetables without electrical power.",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen6.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4.5
+    },
+    {
+      "id": 37,
+      "title": "Darkpyro 12 In 1 Plastic Slicer Dicer Chipser - Green",
+      "price": "529",
+      "description": "The Premium Dicer Slicer is Moulded using hand selected HIGH QUALITY ABS plastic for a lightweight feel, fitted with TOP-QUALITY STAINLESS STEEL Sturdy blades for the sharpest and quickest slice and chop. Don't forget to also buy this as a PERFECT GIFT for your family and friends.",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen7.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 1.5
+    },
+    {
+      "id": 38,
+      "title": "Markwell Plastic Rice Pulses Fruits Vegetable Noodles Pasta Washing ",
+      "price": "99",
+      "description": "The washing and straining bowl features a unique build which will make your job in the kitchen easier. The concave part of the bowl perfectly allows you to soak and clean grains, cooked pasta and more, while the strainer on the side helps you drain out the dirty water without letting the food particles flow along.",
+      "category": "Kitchen",
+      "image": "assets/Kitchen/kitchen8.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 2.5
+    },
+    {
+      "id": 39,
+      "title": "Samsung 253 L Frost Free Double Door 2 Star (2020) Refrigerator",
+      "price": "27599",
+      "description": "You can use the Movable Ice Maker whenever you want to prepare chilled drinks. It can deliver ice in good quantities, so you can use it when required. Also, if it's already chilly outside and you do not want to prepare cold beverages or desserts, then you can remove the Movable Ice Maker and make the freezer more spacious.",
+      "category": "Applieance",
+      "image": "assets/Applieance/app1.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 4.5
+    },
+    {
+      "id": 40,
+      "title": "Samsung 674 Litres 3 Star Frost Free Double Door Refrigerator",
+      "price": "126000",
+      "description": "Brand Samsung Energy Efficiency 3 Stapacity 214 Liters Installation Type Free-Standing Part Number RH62K60177P Form Factor Freezer-on-Top Colour Refined Gleam Defrost System Frost Free Shelf Type Tempered Glass Shelves Number of Shelves 4",
+      "category": "Applieance",
+      "image": "assets/Applieance/app2.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 4.5
+    },
+    {
+      "id": 41,
+      "title": "Samsung RT27JARMALX/TL Free Refrigerator ",
+      "price": "100000",
+      "description": "Technical Details Brand Samsung Model Liters  Free-Standing Part Number RT27JARMALX Form Factor Standard Double Door Colour Orcherry Peach Silver Defrost System Frost Free",
+      "category": "Applieance",
+      "image": "assets/Applieance/app3.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4.5
+    },
+    {
+      "id": 42,
+      "title": "LG GL-D372JHSL 335 Litres Double Door Frost Free Refrigerator ",
+      "price": "39099",
+      "description": "For Installation services, kindly contact the brand the merchant details given on the invoice. LG - Toll Free Number 1800 315 9999/ 1800 180 9999",
+      "category": "Applieance",
+      "image": "assets/Applieance/app4.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 2.5
+    },
+    {
+      "id": 43,
+      "title": "Samsung RT28K3022SE/HL/NL Double-door Refrigerator ",
+      "price": "21650",
+      "description": "Brand Samsung Model Brand Fulfilled Energy 2 Star Rating Capacity 253 Liters Installation Type Free-Standing Part Number RT28K3022SE Form Factor Standard Double Door Colour Elective Silver Defrost System Frost Free",
+      "category": "Applieance",
+      "image": "assets/Applieance/app5.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4.5
+    },
+    {
+      "id": 44,
+      "title": "Samsung 253 L 2 Star Inverter Frost-Free Double Door Refrigerator",
+      "price": "26539",
+      "description": "Frost free refrigerator less than 300Lto prevent ice-build up",
+      "category": "Applieance",
+      "image": "assets/Applieance/app6.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 4.5
+    },
+    {
+      "id": 45,
+      "title": "Bosch KDN30VR30I 288 Litres Double Door Frost Free Refrigerator",
+      "price": "38300",
+      "description": "BrandBoschProduct CodeLARBOSCH Inox-metallicDemo/InstallationOnce the product is delivered, customer can schedule product demo (if applicable) by calling on the brand customer",
+      "category": "Applieance",
+      "image": "assets/Applieance/app7.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4.5
+    },
+    {
+      "id": 46,
+      "title": "Samsung 253 L 2 Star Inverter Frost-Free Double Door Refrigerator",
+      "price": "26539",
+      "description": "Digital inverter compressor energy efficient, less noise & more durabl",
+      "category": "Applieance",
+      "image": "assets/Applieance/app8.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 3
+    },
+    {
+      "id": 47,
+      "title": "PHAETHON BT101 Tennis Bat Poplar Willow Cricket Bat (Full Size, 1 kg)",
+      "price": "678",
+      "description": "PHAETHON BT101 Poplar Willow Cricket Bat is best for playing with Tennis Ball, Wind Ball and Plastic Ball. The pick up of bat is light and balance is just perfect",
+      "category": "sport",
+      "image": "assets/Sport/sport1.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 1.5
+    },
+    {
+      "id": 48,
+      "title": "Vinia Classic Vision-2014Football - Size 5Home Play Football Orange",
+      "price": "719",
+      "description": "We are committed to produce the finest sports equipment for every sportsperson to help improve his/her performance. We strive to create and build sports talent by making available the sports equipment . We are dedicated to continuously upgrade our technology & improve our product range",
+      "category": "sport",
+      "image": "assets/Sport/sport2.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 2.5
+    },
+    {
+      "id": 49,
+      "title": "Yonex GR 303 Aluminium Blend Badminton Racquet with Full Cover",
+      "price": "1599",
+      "description": "We are committed to produce the finest sports equipment for every sportsperson to help improve his/her performance. We strive to create and build sports talent by making available the sports equipment . We are dedicated to continuously upgrade our technology & improve our product range",
+      "category": "sport",
+      "image": "assets/Sport/sport3.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": true,
+      "stars": 3.5
+    },
+    {
+      "id": 50,
+      "title": "Vinia YellowFootball - Size 5Home Play Football",
+      "price": "719",
+      "description": "We are committed to produce the finest sports equipment for every sportsperson to help improve his/her performance. We strive to create and build sports talent by making available the sports equipment . We are dedicated to continuously upgrade our technology & improve our product range",
+      "category": "sport",
+      "image": "assets/Sport/sport4.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 200
+      },
+      "promotion": false,
+      "stars": 4
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "user": "Joseph",
+      "duration": "4.17",
+      "seqNo": 1,
+      "productid": 1,
+      "videoId": "ZhI-stDIlCE"
+    },
+    {
+      "id": 2,
+      "user": "John Kennedy",
+      "duration": "3:17",
+      "seqNo": 2,
+      "productId": 1,
+      "videoId": "ZhI-stDIlCE"
+    },
+    {
+      "id": 3,
+      "user": "Kelly",
+      "duration": "3:17",
+      "seqNo": 3,
+      "productId": 1,
+      "videoId": "ZhI-stDIlCE"
+    },
+    {
+      "id": 4,
+      "user": "Olivia",
+      "duration": "3:17",
+      "seqNo": 4,
+      "productId": 1,
+      "videoId": "ZhI-stDIlCE"
+    },
+    {
+      "id": 5,
+      "user": "Georgy",
+      "duration": "3:17",
+      "seqNo": 5,
+      "productId": 1,
+      "videoId": "ZhI-stDIlCE"
+    }
+  ],
+  "orders": [
+    {
+      "id": 19,
+      "orderDate": "2022-08-12T12:42:15.056Z",
+      "name": "User",
+      "address": "1/618, Eachanari, Coimbatore",
+      "pincode": "641021",
+      "contactNo": "6548574856",
+      "orderAmount": 439
+    }
+  ],
+  "orderItems": [
+    {
+      "id": 28,
+      "productId": 7,
+      "orderId": 19,
+      "quantity": 1
+    },
+    {
+      "id": 29,
+      "productId": 14,
+      "orderId": 19,
+      "quantity": 1
+    }
+  ],
+  "cartItems": [
+    {
+      "id": 1,
+      "productId": 10,
+      "quantity": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "label": "When did you use our Website?",
+      "required": true,
+      "controlType": "input",
+      "type": "date",
+      "response": null
+    },
+    {
+      "id": 2,
+      "label": "Name of product or service which you liked the most",
+      "required": true,
+      "controlType": "input",
+      "type": "text",
+      "response": null
+    },
+    {
+      "id": 3,
+      "label": "Overall, how satisfied are you with the product or service?",
+      "required": false,
+      "controlType": "input",
+      "type": "radio",
+      "options": [
+        "Good",
+        "Satisfied",
+        "Fair",
+        "Bad"
+      ],
+      "response": null
+    },
+    {
+      "id": 4,
+      "label": "Will you recommend this application to your friend/colleagues",
+      "required": true,
+      "controlType": "input",
+      "type": "radio",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "response": null
+    },
+    {
+      "id": 5,
+      "label": "What are the categories that needs be improved",
+      "required": false,
+      "controlType": "input",
+      "type": "text",
+      "response": null
+    },
+    {
+      "id": 6,
+      "label": "What are the categories that you like?",
+      "required": true,
+      "controlType": "input",
+      "type": "checkbox",
+      "options": [
+        "Men's Clothing",
+        "Women's Clothing",
+        "Electronics",
+        "Jewelery"
+      ],
+      "response": null
+    },
+    {
+      "id": 7,
+      "label": "Will you purchase from our site again?",
+      "required": true,
+      "controlType": "input",
+      "type": "radio",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "response": null
+    },
+    {
+      "id": 8,
+      "label": "Out of 10 how much will you rate us?",
+      "required": true,
+      "controlType": "input",
+      "type": "radio",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "response": null
+    },
+    {
+      "id": 9,
+      "label": "Comments",
+      "required": true,
+      "controlType": "input",
+      "type": "text",
+      "response": null
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2022-08-10T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "qwerty"
+        },
+        {
+          "questionId": "3",
+          "answer": "Satisfied"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "4"
+        },
+        {
+          "questionId": "9",
+          "answer": "qwerty@123"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2022-08-10T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "fgnhxfhjmtgm"
+        },
+        {
+          "questionId": "3",
+          "answer": "Satisfied"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": "none"
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "10"
+        },
+        {
+          "questionId": "9",
+          "answer": "sdfgfrgethretherg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2001-12-11T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "asd"
+        },
+        {
+          "questionId": "3",
+          "answer": "Satisfied"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "9"
+        },
+        {
+          "questionId": "9",
+          "answer": "asdasd"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2001-12-11T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "asd"
+        },
+        {
+          "questionId": "3",
+          "answer": "Satisfied"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "9"
+        },
+        {
+          "questionId": "9",
+          "answer": "asdasd"
+        },
+        {
+          "questionId": "1",
+          "answer": "2022-08-09T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "asd"
+        },
+        {
+          "questionId": "3",
+          "answer": "Satisfied"
+        },
+        {
+          "questionId": "4",
+          "answer": "no"
+        },
+        {
+          "questionId": "5",
+          "answer": "asd"
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "9"
+        },
+        {
+          "questionId": "9",
+          "answer": "asd"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2022-08-10T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "dsa"
+        },
+        {
+          "questionId": "3",
+          "answer": "Satisfied"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": "asdas"
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "8"
+        },
+        {
+          "questionId": "9",
+          "answer": "asd"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2022-08-03T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "T-shirt"
+        },
+        {
+          "questionId": "3",
+          "answer": "Good"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": "cloth material"
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "8"
+        },
+        {
+          "questionId": "9",
+          "answer": "Good website"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2022-08-02T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "test"
+        },
+        {
+          "questionId": "3",
+          "answer": "Good"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": "hello"
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "3"
+        },
+        {
+          "questionId": "9",
+          "answer": "Sample Testing"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2022-08-18T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "asdasdsa"
+        },
+        {
+          "questionId": "3",
+          "answer": "Good"
+        },
+        {
+          "questionId": "4",
+          "answer": "yes"
+        },
+        {
+          "questionId": "5",
+          "answer": "asd"
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "10"
+        },
+        {
+          "questionId": "9",
+          "answer": "asd"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": ""
+        },
+        {
+          "questionId": "2",
+          "answer": ""
+        },
+        {
+          "questionId": "3",
+          "answer": ""
+        },
+        {
+          "questionId": "4",
+          "answer": ""
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": ""
+        },
+        {
+          "questionId": "7",
+          "answer": ""
+        },
+        {
+          "questionId": "8",
+          "answer": ""
+        },
+        {
+          "questionId": "9",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": ""
+        },
+        {
+          "questionId": "2",
+          "answer": ""
+        },
+        {
+          "questionId": "3",
+          "answer": ""
+        },
+        {
+          "questionId": "4",
+          "answer": ""
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": ""
+        },
+        {
+          "questionId": "7",
+          "answer": ""
+        },
+        {
+          "questionId": "8",
+          "answer": ""
+        },
+        {
+          "questionId": "9",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": ""
+        },
+        {
+          "questionId": "2",
+          "answer": ""
+        },
+        {
+          "questionId": "3",
+          "answer": ""
+        },
+        {
+          "questionId": "4",
+          "answer": ""
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": ""
+        },
+        {
+          "questionId": "7",
+          "answer": ""
+        },
+        {
+          "questionId": "8",
+          "answer": ""
+        },
+        {
+          "questionId": "9",
+          "answer": ""
+        },
+        {
+          "questionId": "1",
+          "answer": ""
+        },
+        {
+          "questionId": "2",
+          "answer": ""
+        },
+        {
+          "questionId": "3",
+          "answer": ""
+        },
+        {
+          "questionId": "4",
+          "answer": ""
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": ""
+        },
+        {
+          "questionId": "7",
+          "answer": ""
+        },
+        {
+          "questionId": "8",
+          "answer": ""
+        },
+        {
+          "questionId": "9",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": ""
+        },
+        {
+          "questionId": "2",
+          "answer": ""
+        },
+        {
+          "questionId": "3",
+          "answer": ""
+        },
+        {
+          "questionId": "4",
+          "answer": ""
+        },
+        {
+          "questionId": "5",
+          "answer": ""
+        },
+        {
+          "questionId": "6",
+          "answer": ""
+        },
+        {
+          "questionId": "7",
+          "answer": ""
+        },
+        {
+          "questionId": "8",
+          "answer": ""
+        },
+        {
+          "questionId": "9",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "response": [
+        {
+          "questionId": "1",
+          "answer": "2001-12-11T18:30:00.000Z"
+        },
+        {
+          "questionId": "2",
+          "answer": "Cloth"
+        },
+        {
+          "questionId": "3",
+          "answer": "Good"
+        },
+        {
+          "questionId": "4",
+          "answer": "no"
+        },
+        {
+          "questionId": "5",
+          "answer": "T-shirt"
+        },
+        {
+          "questionId": "6",
+          "answer": true
+        },
+        {
+          "questionId": "7",
+          "answer": "yes"
+        },
+        {
+          "questionId": "8",
+          "answer": "8"
+        },
+        {
+          "questionId": "9",
+          "answer": "asd"
+        }
+      ]
+    }
+  ]
+}

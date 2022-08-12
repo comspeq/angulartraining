@@ -1,0 +1,42 @@
+/* .fullpage
+{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 16% 84%;
+}
+.sidenav
+{
+    background-color: rgb(0, 4, 66);
+    height: 100vh;
+}
+.rightpage
+{
+    display: grid;
+    grid-template-rows: 5% 5% 90%;
+    background-color: cyan;
+}
+.top {
+    background-color: green;
+}
+.middle{
+    background-color: bisque;
+}
+.content{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    grid-gap:2%;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(242, 255, 253);
+}
+.l-content{
+    height: 85vh;
+    box-shadow: 0 0 10px 10px black;
+    background-color: rgb(210, 30, 75);
+}
+.r-content{
+    box-shadow: 0 0 1px 10px black;
+    height: 85vh;
+
+    background-color: rgb(30, 210, 156);
+} */
